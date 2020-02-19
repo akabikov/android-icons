@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 7fr;
+}
+
+.cell {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.icon {
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    grid-column: 1 / 4;
+    justify-content: center;
+    border: solid black;
+    border-width: 1px 0 1px 0;
+    page-break-before: auto;
+}
