@@ -1,6 +1,6 @@
 (async () => {
     const container = document.querySelector(".container");
-    const columnSequence = ["title", "icon", "name", "descr"];
+    const columnOrder = ["title", "icon", "name", "descr"];
     const iconsClass = "material-icons";
     let table;
 
@@ -18,7 +18,7 @@
 
     table.forEach(element => {
 
-        columnSequence.forEach(field => {
+        columnOrder.forEach(field => {
             if (!element[field]) return;
 
             const div = document.createElement("div");
