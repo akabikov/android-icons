@@ -9,10 +9,10 @@
         if (response.ok) {
             table = await response.json();
         } else {
-            container.textContent = "Не удалось загрузить данные";
             throw new Error(response.status);
         }
     } catch (error) {
+        container.textContent = "Can't load data";
         throw error;
     }
 
