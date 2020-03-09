@@ -5,7 +5,7 @@
     let table;
 
     try {
-        const response = await fetch("../content.json");
+        const response = await fetch("./content.json");
         if (response.ok) {
             table = await response.json();
         } else {
