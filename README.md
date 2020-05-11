@@ -25,7 +25,7 @@ You can view online demo here: https://akabikov.github.io/android-icons/
 * [Material Design Icons](https://material.io/resources/icons/)
 
 ## Setup and using
-Clone or download repository and open `index.html` in your browser.
+Clone or download repository and start your local server in project directory.
 
 You can edit descriptions and add your own icons to the `content.json` file.
 
